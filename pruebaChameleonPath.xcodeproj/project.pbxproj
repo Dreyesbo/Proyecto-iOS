@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		69E43D7C1828148400212AC8 /* Mosca.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E43D781828148400212AC8 /* Mosca.png */; };
-		69E43D7D1828148400212AC8 /* Llave.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E43D791828148400212AC8 /* Llave.png */; };
-		69E43D7E1828148400212AC8 /* estrella.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E43D7A1828148400212AC8 /* estrella.png */; };
-		69E43D7F1828148400212AC8 /* bloque.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E43D7B1828148400212AC8 /* bloque.png */; };
+		55A9736818276642004B696C /* (null) in Sources */ = {isa = PBXBuildFile; };
+		55A9736B18276C23004B696C /* (null) in Sources */ = {isa = PBXBuildFile; };
 		69F135E8180B5CAD00FCFCF2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F135E7180B5CAD00FCFCF2 /* QuartzCore.framework */; };
 		69F135EA180B5CAD00FCFCF2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F135E9180B5CAD00FCFCF2 /* OpenGLES.framework */; };
 		69F135EC180B5CAD00FCFCF2 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F135EB180B5CAD00FCFCF2 /* OpenAL.framework */; };
@@ -159,10 +157,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		69E43D781828148400212AC8 /* Mosca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mosca.png; sourceTree = "<group>"; };
-		69E43D791828148400212AC8 /* Llave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Llave.png; sourceTree = "<group>"; };
-		69E43D7A1828148400212AC8 /* estrella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = estrella.png; sourceTree = "<group>"; };
-		69E43D7B1828148400212AC8 /* bloque.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bloque.png; sourceTree = "<group>"; };
 		69F135E4180B5CAD00FCFCF2 /* pruebaChameleonPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pruebaChameleonPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69F135E7180B5CAD00FCFCF2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		69F135E9180B5CAD00FCFCF2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -518,10 +512,6 @@
 				69F135FA180B5CAD00FCFCF2 /* Resources */,
 				69F13614180B5CAD00FCFCF2 /* libs */,
 				69F1376D180B5CAF00FCFCF2 /* Supporting Files */,
-				55A9736618276642004B696C /* Pared.h */,
-				55A9736718276642004B696C /* Pared.m */,
-				55A9736918276C23004B696C /* Nivel.h */,
-				55A9736A18276C23004B696C /* Nivel.m */,
 			);
 			path = pruebaChameleonPath;
 			sourceTree = "<group>";
@@ -529,10 +519,6 @@
 		69F135FA180B5CAD00FCFCF2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				69E43D781828148400212AC8 /* Mosca.png */,
-				69E43D791828148400212AC8 /* Llave.png */,
-				69E43D7A1828148400212AC8 /* estrella.png */,
-				69E43D7B1828148400212AC8 /* bloque.png */,
 				69F135FB180B5CAD00FCFCF2 /* Default.png */,
 				69F135FD180B5CAD00FCFCF2 /* Default-Landscape~ipad.png */,
 				69F135FF180B5CAD00FCFCF2 /* fps_images.png */,
@@ -989,10 +975,6 @@
 				69F137A3180B7C6400FCFCF2 /* resetHighscoresSelected.png in Resources */,
 				69F137A4180B7C6400FCFCF2 /* resetHighscores.png in Resources */,
 				69F137A6180B805600FCFCF2 /* backgroundMusic.mp3 in Resources */,
-				69E43D7C1828148400212AC8 /* Mosca.png in Resources */,
-				69E43D7D1828148400212AC8 /* Llave.png in Resources */,
-				69E43D7E1828148400212AC8 /* estrella.png in Resources */,
-				69E43D7F1828148400212AC8 /* bloque.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1109,8 +1091,8 @@
 				69F13779180B5CAF00FCFCF2 /* IntroLayer.m in Sources */,
 				69F13793180B704400FCFCF2 /* Puntuacion.m in Sources */,
 				69F13798180B7AFC00FCFCF2 /* Opciones.m in Sources */,
-				55A9736818276642004B696C /* Pared.m in Sources */,
-				55A9736B18276C23004B696C /* Nivel.m in Sources */,
+				55A9736818276642004B696C /* (null) in Sources */,
+				55A9736B18276C23004B696C /* (null) in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
