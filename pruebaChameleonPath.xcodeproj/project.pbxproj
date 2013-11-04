@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55A9736818276642004B696C /* Pared.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A9736718276642004B696C /* Pared.m */; };
+		55A9736B18276C23004B696C /* Nivel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A9736A18276C23004B696C /* Nivel.m */; };
 		69F135E8180B5CAD00FCFCF2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F135E7180B5CAD00FCFCF2 /* QuartzCore.framework */; };
 		69F135EA180B5CAD00FCFCF2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F135E9180B5CAD00FCFCF2 /* OpenGLES.framework */; };
 		69F135EC180B5CAD00FCFCF2 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F135EB180B5CAD00FCFCF2 /* OpenAL.framework */; };
@@ -155,6 +157,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55A9736618276642004B696C /* Pared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pared.h; sourceTree = "<group>"; };
+		55A9736718276642004B696C /* Pared.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pared.m; sourceTree = "<group>"; };
+		55A9736918276C23004B696C /* Nivel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nivel.h; sourceTree = "<group>"; };
+		55A9736A18276C23004B696C /* Nivel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nivel.m; sourceTree = "<group>"; };
 		69F135E4180B5CAD00FCFCF2 /* pruebaChameleonPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pruebaChameleonPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69F135E7180B5CAD00FCFCF2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		69F135E9180B5CAD00FCFCF2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -510,6 +516,10 @@
 				69F135FA180B5CAD00FCFCF2 /* Resources */,
 				69F13614180B5CAD00FCFCF2 /* libs */,
 				69F1376D180B5CAF00FCFCF2 /* Supporting Files */,
+				55A9736618276642004B696C /* Pared.h */,
+				55A9736718276642004B696C /* Pared.m */,
+				55A9736918276C23004B696C /* Nivel.h */,
+				55A9736A18276C23004B696C /* Nivel.m */,
 			);
 			path = pruebaChameleonPath;
 			sourceTree = "<group>";
@@ -1089,6 +1099,8 @@
 				69F13779180B5CAF00FCFCF2 /* IntroLayer.m in Sources */,
 				69F13793180B704400FCFCF2 /* Puntuacion.m in Sources */,
 				69F13798180B7AFC00FCFCF2 /* Opciones.m in Sources */,
+				55A9736818276642004B696C /* Pared.m in Sources */,
+				55A9736B18276C23004B696C /* Nivel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1192,6 +1204,7 @@
 				69F1377E180B5CAF00FCFCF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
