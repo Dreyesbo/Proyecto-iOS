@@ -518,6 +518,10 @@
 				69F135FA180B5CAD00FCFCF2 /* Resources */,
 				69F13614180B5CAD00FCFCF2 /* libs */,
 				69F1376D180B5CAF00FCFCF2 /* Supporting Files */,
+				55A9736618276642004B696C /* Pared.h */,
+				55A9736718276642004B696C /* Pared.m */,
+				55A9736918276C23004B696C /* Nivel.h */,
+				55A9736A18276C23004B696C /* Nivel.m */,
 			);
 			path = pruebaChameleonPath;
 			sourceTree = "<group>";
@@ -1105,6 +1109,8 @@
 				69F13779180B5CAF00FCFCF2 /* IntroLayer.m in Sources */,
 				69F13793180B704400FCFCF2 /* Puntuacion.m in Sources */,
 				69F13798180B7AFC00FCFCF2 /* Opciones.m in Sources */,
+				55A9736818276642004B696C /* Pared.m in Sources */,
+				55A9736B18276C23004B696C /* Nivel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

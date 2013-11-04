@@ -17,6 +17,7 @@
 #import "Puntuacion.h"
 #import "Opciones.h"
 #import "SimpleAudioEngine.h"
+#import "Nivel.h"
 
 NSUserDefaults *defaults;
 
@@ -86,6 +87,11 @@ NSUserDefaults *defaults;
 	return self;
 }
 
+- (void)iniciarJuego {
+	CCScene *nivelScene = [Nivel scene];
+    
+	[[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:0.5f scene:nivelScene]];
+}
 
 - (void)verPuntuacion {
 	CCScene *PuntuacionScene = [Puntuacion scene];
