@@ -31,13 +31,11 @@ CCMenuItem *_soundOn;
         
         CGSize winSize = [CCDirector sharedDirector].winSize;
         CCSprite *background = [CCSprite spriteWithFile:@"BlurryBackground.png"];
-        background.scale=.5;
         background.position = ccp(winSize.width/2, winSize.height/2);
         [self addChild:background z:-2];
 		
 		
         CCSprite *opciones = [CCSprite spriteWithFile:@"OptionsButton.png"];
-        opciones.scale = .5;
         opciones.position =  ccp(winSize.width/2 , 270 );
         [self addChild: opciones];
         
@@ -67,11 +65,9 @@ CCMenuItem *_soundOn;
             toggleItem = [CCMenuItemToggle itemWithTarget:self selector:@selector(cambiarSonido:) items:_soundOn, _soundOff, nil];
         else
             toggleItem = [CCMenuItemToggle itemWithTarget:self selector:@selector(cambiarSonido:) items:_soundOff,_soundOn, nil];
-        toggleItem.scale = .5;
         
         
         CCMenuItem *resetHighscores = [CCMenuItemImage itemWithNormalImage:@"resetHighscores.png" selectedImage:@"resetHighscoresSelected.png" target:self selector:@selector(borrarPuntuacion:)];
-        resetHighscores.scale = .5;
 
         
         CCMenu *menu = [CCMenu menuWithItems:toggleItem, resetHighscores, nil];

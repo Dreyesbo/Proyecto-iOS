@@ -30,13 +30,11 @@
         
         CGSize winSize = [CCDirector sharedDirector].winSize;
         CCSprite *background = [CCSprite spriteWithFile:@"BlurryBackground.png"];
-        background.scale=.5;
         background.position = ccp(winSize.width/2, winSize.height/2);
         [self addChild:background z:-2];
 		
 		
         CCSprite *highscores = [CCSprite spriteWithFile:@"HighscoresButton.png"];
-        highscores.scale = .5;
         highscores.position =  ccp(winSize.width/2 , 270 );
         
         // add the label as a child to this Layer

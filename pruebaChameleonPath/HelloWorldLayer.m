@@ -51,13 +51,11 @@ NSUserDefaults *defaults;
 
         CGSize winSize = [CCDirector sharedDirector].winSize;
         CCSprite *background = [CCSprite spriteWithFile:@"Background.png"];
-        background.scale=.5;
         background.position = ccp(winSize.width/2, winSize.height/2);
         [self addChild:background z:-2];		
 		
 		
         CCSprite *logo = [CCSprite spriteWithFile:@"Logo.png"];
-        logo.scale = .6;
         logo.position =  ccp(winSize.width/2 , 250 );
         
         // add the label as a child to this Layer
@@ -65,11 +63,8 @@ NSUserDefaults *defaults;
 
         
         CCMenuItem *play = [CCMenuItemImage itemWithNormalImage:@"PlayButton.png" selectedImage:@"PlayButtonSelected.png" target:self selector:@selector(iniciarJuego)];
-        play.scale = .5;
         CCMenuItem *highscores = [CCMenuItemImage itemWithNormalImage:@"HighscoresButton.png" selectedImage:@"HighscoresButtonSelected.png" target:self selector:@selector(verPuntuacion)];
-        highscores.scale = .5;
         CCMenuItem *options = [CCMenuItemImage itemWithNormalImage:@"OptionsButton.png" selectedImage:@"OptionsButtonSelected.png" target:self selector:@selector(verOpciones)];
-        options.scale = .5;
 
         CCMenu *menu = [CCMenu menuWithItems:play, highscores, options, nil];
         menu.position = ccp(winSize.width * 0.5f, winSize.height * 0.3f);
